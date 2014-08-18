@@ -4,20 +4,22 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Fabian Family Fun Fest 2014 | Michigan</title>
-		<script src="../JavaScript/myscript.js"></script>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link type="text/css" rel="stylesheet" href="normalize.css">
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
 	</head>
 	<body>
 		<div id="menu">
-			<a href="index.html" class="menu">Home</a>
-			<a href="http://www.vrbo.com/505681#" class="menu">Rental Home Listing</a>
-			<a href="details.html" class="menu">Weekend Details</a>
-			<a href="itineraries.html" class="menu">Travel Itineraries</a>
+			<a href="index.html" class="menu">Home</a> * 
+			<a href="http://www.vrbo.com/505681#" class="menu">Rental Home Listing</a> * 
+			<a href="details.html" class="menu">Weekend Details</a> * 
+			<a href="itineraries.html" class="menu">Travel Itineraries</a> * 
 		</div>
 		<h1 style="color: blue">Make your meal selections to provide.</h1>
-		<p>There are 12 meals to cover while inside the house as breakfast and lunch on Saturday, August 16 will be done either at Mom & Dad's house or on the road. Those 12 meals take into account that dinner on Saturday, August 16 and one more meal will be at a restaurant or through takeout. Also, breakfast on Saturday, August 23 will be a "free-for-all" to clean out leftovers. The count also does not take into account lunces as those will be done individually. These are great places to finish up the inevitable leftovers.<br><br>
-			<strong>So with 12 group meals to cover and 4 families, each family will cover 3 meals.</strong></p>
-		
+		<p>There are 12 meals to cover while inside the house as breakfast and lunch on Saturday, August 16 will be done either at Mom & Dad's house or on the road. Those 12 meals take into account that dinner on Saturday, August 16 and one more meal will be at a restaurant or through takeout. Also, breakfast on Saturday, August 23 will be a "free-for-all" to clean out leftovers. The count also does not take into account lunces as those will be done individually. These are great places to finish up the inevitable leftovers.
+		<br>
+		<br>
+		<strong>So with 12 group meals to cover and 4 families, each family will cover 3 meals.</strong></p>
+
 		<form action="index.html" method="GET" name="mealform">
 			<label for="family">Family<label>
 			<input type="text" id="family"><br>
@@ -26,7 +28,8 @@
 			
 			<fieldset>
 				<legend><strong>Meal Selections</strong> Please select 3(three) meals. Please include at least 1(one) breakfast and 1(one) dinner.</legend><br>
-				<input type="checkbox" name="meal selection" value="sunday_breakfast" id="sunday_breakfast"><label for="sunday_breakfast">Sunday Breakfast</label>
+				<input type="checkbox" name="meal selection" value="sunday_breakfast" id="sunday_breakfast">
+				<label for="sunday_breakfast">Sunday Breakfast</label>
 				<input type="checkbox" name="meal selection" value="sunday_dinner">Sunday Dinner<br><br>
 				<input type="checkbox" name="meal selection" value="monday_breakfast">Monday Breakfast
 				<input type="checkbox" name="meal selection" value="monday_dinner">Monday Dinner<br><br>
@@ -41,9 +44,10 @@
 			</fieldset>
 			<p>Please enter any special requests you have for meals provided by others.</p>
 			<textarea name="specialrequest" rows="10" columns"40"></textarea><br><br>
-		
 			<input type="submit" value="Mmmmmm, I'm Hungry!">
 		</form>
+		<br>
+		<br>
 		<br>
 	</body>
 </html>

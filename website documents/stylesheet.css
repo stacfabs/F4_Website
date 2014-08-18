@@ -1,4 +1,4 @@
-/* Nav Menu Styling */
+/* Nav Menu Styling
 
 #menu {
 	z-index: 1;
@@ -12,6 +12,8 @@
 	color: #fff;
 }
 
+*/
+
 a:hover {
 	color: #e60000;
 	text-decoration: none;
@@ -20,6 +22,8 @@ a:hover {
 a:visited {
 	color: #000;
 }
+
+/* 
 
 #left {
 	float: left;
@@ -32,7 +36,9 @@ a:visited {
 	width: 45%;
 }
 
-/* Welcome message */
+*/
+
+/* Welcome message 
 
 #welcome_paragraph {
 	text-align: center;
@@ -40,7 +46,7 @@ a:visited {
 
 }
 
-/* Rental house button */
+/* Rental house button 
 
 #button {
 	clear: both;
@@ -75,8 +81,6 @@ td {
 	padding: 5px;
 	border: 1px dashed black;
 }
-
-
 
 /* Everything below is a sample css taken from codecademy. Use it to start with and go from there.
 
